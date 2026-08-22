@@ -1,5 +1,6 @@
 # Guía de Instalación y Configuración de CLIAMP en WSL
 
+Guia simple Para poder instalar [CLIAMP](https://www.cliamp.stream) en [WSL](https://learn.microsoft.com/es-es/windows/wsl/install)
 Este tutorial fue generado con asistencia de Inteligencia Artificial (IA) para documentar el proceso exacto de instalación y configuración de cliamp en Windows Subsystem for Linux (WSL).
 
 ## 1 instalacion de wsl y ubuntu
@@ -59,3 +60,12 @@ Si el streaming o las radios online sufren cortes, chasquidos o clips digitales 
 echo "export PULSE_LATENCY_MSEC=100" >> ~/.bashrc
 source ~/.bashrc
 ```
+
+## 5 Automatizacion opcional (Acceso directo desde Windows)
+
+Si querés abrir `cliamp` con un clic desde el escritorio de Windows sin abrir la terminal de Ubuntu a mano, podés usar el script de automatización incluido en este repositorio.
+
+1. Descargá el archivo **[cliamp.bat](cliamp.bat)** de este repositorio y guardalo en tu Escritorio de Windows.
+2. Hacer clic derecho sobre el archivo descargado y seleccionar **Anclar a la barra de tareas** o dejarlo como acceso directo en el Escritorio.
+
+*(Nota: Al ejecutarlo por primera vez, Windows puede mostrar una advertencia de SmartScreen. Hacé clic en "Más información" y luego en "Ejecutar de todas formas").*
