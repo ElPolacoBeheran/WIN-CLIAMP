@@ -3,6 +3,8 @@
 Guia simple Para poder instalar [CLIAMP](https://www.cliamp.stream) en [WSL](https://learn.microsoft.com/es-es/windows/wsl/install)
 Este tutorial fue generado con asistencia de Inteligencia Artificial (IA) para documentar el proceso exacto de instalación y configuración de cliamp en Windows Subsystem for Linux (WSL).
 
+CLIAMP es una herramienta de streaming para Linux, este es un tutorial sirve solo para poder correr este programa en windows, **NO CREE EL PROGRAMA DE CLIAMP TODOS LOS CREDITOS EN (https://github.com/bjarneo/cliamp)** 
+
 ## 1 instalacion de wsl y ubuntu
 
 1. Abrir PowerShell como Administrador.
